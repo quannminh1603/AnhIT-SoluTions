@@ -1,0 +1,48 @@
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .homeBenefitsList {
+        margin-top: 80px;
+        margin-left: 140px;
+        margin-right: 120px;
+    }
+
+    .homeBenefitsList .titleHomeBenefitsList {
+        text-align: left;
+    }
+
+    .homeBenefitsList .container  {
+        
+    }
+
+    .homeBenefitsList .container .row {
+        margin-top: 20px;
+    }
+
+    .homeBenefitsList .container .row .itemBenefitsList .iconBenefitsList {
+        margin-right: 16px;
+    }
+
+    .homeBenefitsList .container .row .itemBenefitsList {
+        /* padding: 16px 0; */
+        border: 1px solid #ccc;
+        background-color: #F5F5F5B2;
+        margin-right: 20px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .homeBenefitsList .container .row .itemBenefitsList .gridTemplateCol2 {
+        display: grid;
+        grid-template-columns: 10% auto;
+        gap: 8px;
+    }
+
+    .homeBenefitsList .container .row .itemBenefitsList .gridTemplateCol2 .contentBenefitsList {
+        text-transform: capitalize;
+    }
+} 

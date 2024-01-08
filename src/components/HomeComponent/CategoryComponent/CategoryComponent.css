@@ -1,0 +1,16 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .homeCategoryComponent {
+        margin-top: 80px;
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+
+    .homeCategoryComponent h1 {
+        margin-bottom: 28px;
+    }
+
+    .homeCategoryComponent .itemHomeCategory .row .col-sm img {
+        width: 100%;
+    }
+}

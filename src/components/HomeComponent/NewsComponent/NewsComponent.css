@@ -1,0 +1,82 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .NewsComponent {
+        margin-top: 80px;
+
+    }
+
+    .NewsComponent .title {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .NewsComponent .title h2 {
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+    }
+
+    .NewsComponent .title a {
+        float: right;
+        margin-top: -37px;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .NewsComponent .container .row {
+        gap: 20px;
+    }
+
+    .NewsComponent .container .row .col-sm {
+        text-align: left;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        padding: 0;
+    }
+
+    .NewsComponent .container .row .col-sm img {
+        width: 100%;
+    }
+
+    .NewsComponent .container .row .col-sm .gridTemplateCol2 {
+        display: grid;
+        grid-template-columns: auto 10%;
+        gap: 8px;
+    }
+
+    .NewsComponent .container .row .col-sm .gridTemplateCol2 .nameNews {
+        text-transform: capitalize;
+    }
+
+    .NewsComponent .container .row .col-sm .gridTemplateCol2 .iconNews {
+        line-height: 57px;
+    }
+
+    .NewsComponent .container .row .col-sm .nameNews {
+        margin-top: 12px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding-bottom: 12px;
+        display: block;
+        height: 60px;
+        font-weight: bold;
+    }
+
+    .NewsComponent .container .row .col-sm .descNews {
+        /* font-size: 24px;
+        font-weight: 500; */
+        color: #667085;
+        font-size: 16px;
+    }
+
+    .NewsComponent .container .row .col-sm .nameNews,
+    .NewsComponent .container .row .col-sm .timeNews {
+        margin-bottom: 8px;
+    }
+
+    .NewsComponent .container .row .col-sm .timeNews {
+        color: #6941C6;
+        font-weight: 600;
+        margin-top: 12px;
+        font-size: 14px;
+    }
+}

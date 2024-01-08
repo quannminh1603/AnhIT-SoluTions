@@ -1,0 +1,49 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .reviewCourseComponent {
+        margin-top: 80px;
+    }
+
+    .reviewCourseComponent .container .row .col {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 28px;
+        border-radius: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .reviewCourseComponent .container .row h2 {
+        margin-bottom: 28px;
+    }
+    
+    .reviewCourseComponent .container .row .col .gridTemplateCol2 {
+        display: grid;
+        grid-template-columns: 20% auto;
+        gap: 10px;
+    }
+
+    .reviewCourseComponent .container .row .col .gridTemplateCol2 img {
+        width: 100%;
+    }
+
+    .reviewCourseComponent .container .row .col .gridTemplateCol2 .nameReviewCourse {
+        text-transform: capitalize;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .reviewCourseComponent .container .row .col .contentReviewCourse {
+        text-align: left;
+        font-size: 14px;
+        color: #313131;
+        margin-top: 16px;
+    }
+
+    .reviewCourseComponent .container .row .col .starReviewCourse {
+        text-align: left;
+    }
+
+    .reviewCourseComponent .container .row .col .starReviewCourse svg {
+        color: #FAB437;
+    }
+}

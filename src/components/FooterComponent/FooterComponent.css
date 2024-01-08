@@ -1,0 +1,64 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .footerComponent {
+        background-color: #F6FDFB;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footerComponent .row .col {
+        text-align: left;
+    }
+
+    .footerComponent .row .col img {
+        width: 100%;
+    }
+
+    .footerComponent .row .col .title {
+        color: #7B7B7B;
+        text-transform: uppercase;
+    }
+
+    .footerComponent .row .col .address,
+    .footerComponent .row .col .phone {
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+
+    .footerComponent .row .col ul {
+        padding-left: 0;
+    }
+
+    .footerComponent .row .col ul li {
+        list-style: none;
+    }
+
+    .footerComponent .row .col ul li:hover a {
+        color: #24D198;
+    }
+
+    .footerComponent .row .col ul li a {
+        text-decoration: none;
+        color: #000;
+        padding-top: 6px;
+        display: block;
+    }
+
+    .footerComponent .row .col form input {
+        padding: 8px 12px;
+        border: 1px solid #E4E4E7;
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 12px;
+    }
+
+    .footerComponent .row .col form button {
+        padding: 8px 0px;
+        background-color: #24D198;
+        color: #F6FDFB;
+        border: 1px solid #24D198;
+        margin-top: 12px;
+        width: 100%;
+        border-radius: 6px;
+    }
+}

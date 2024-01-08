@@ -1,0 +1,57 @@
+@media only screen and (min-width : 1224px) {
+    .bannerComponent {
+    }
+
+    .bannerComponent .banner {
+        position: relative;
+        width: 100%;
+        height: 786px;
+    }
+
+    .bannerComponent .banner .slickSlider,
+    .bannerComponent .banner .slickSlider .slick-list,
+    .bannerComponent .banner .slickSlider .slick-list .slick-track,
+    .bannerComponent .banner .slickSlider .slick-list .slick-track .slick-slide,
+    .bannerComponent .banner .slickSlider .slick-list .slick-track .slick-slide div {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bannerComponent .banner .slickSlider img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bannerComponent .slickSlider .slick-prev,
+    .bannerComponent .slickSlider .slick-next {
+        display: none !important;
+    }
+
+    .bannerComponent .contentBanner .textBanner {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .bannerComponent .contentBanner .btnBanner {
+        background-color: #24D198;
+        border: 1px solid #24D198;
+        padding: 6px 16px;
+        border-radius: 12px;
+        color: #fff;
+    }
+
+    .bannerComponent .contentBanner .btnBanner:hover {
+        background-color: #13ad7a;
+    }
+
+    .bannerComponent .contentBanner {
+        position: absolute;
+        top: 50%;
+        /* bottom: 50%; */
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+}

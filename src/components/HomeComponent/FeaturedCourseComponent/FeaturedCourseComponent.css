@@ -1,0 +1,77 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .featuredCourseComponent {
+        margin-top: 80px;
+
+    }
+
+    .featuredCourseComponent .title {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .featuredCourseComponent .title h2 {
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+    }
+
+    .featuredCourseComponent .title a {
+        float: right;
+        margin-top: -37px;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .featuredCourseComponent .container .row {
+        gap: 20px;
+    }
+
+    .featuredCourseComponent .container .row .col-sm {
+        text-align: left;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding-top: 12px;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .featuredCourseComponent .container .row .col-sm img {
+        width: 100%;
+    }
+
+    .featuredCourseComponent .container .row .col-sm .nameFeaturedCourse {
+        margin-top: 12px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding-bottom: 12px;
+        display: block;
+        height: 60px;
+    }
+
+    .featuredCourseComponent .container .row .col-sm .priceFeaturedCourse {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .featuredCourseComponent .container .row .col-sm .priceFeaturedCourse,
+    .featuredCourseComponent .container .row .col-sm .lessonFeaturedCourse,
+    .featuredCourseComponent .container .row .col-sm .timeFeaturedCourse {
+        margin-bottom: 8px;
+    }
+
+    .featuredCourseComponent .container .row .col-sm .lessonFeaturedCourse,
+    .featuredCourseComponent .container .row .col-sm .timeFeaturedCourse {
+        color: #999999;
+    }
+
+    .featuredCourseComponent .container .row .col-sm .btnDetailCourse {
+        background-color: #24D198;
+        color: #fff;
+        padding: 6px 18px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-top: 12px;
+        display: block;
+        width: 120px;
+    }
+}

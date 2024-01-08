@@ -1,0 +1,85 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .newPostsComponent {
+        margin-top: 80px;
+    }
+
+    .newPostsComponent .title {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .newPostsComponent .container .row h2 {
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 12px;
+    }
+
+    .newPostsComponent .container .row {
+        gap: 20px;
+    }
+
+    .newPostsComponent .container .borderRow {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        padding: 12px;
+    }
+
+    .newPostsComponent .container .row .col {
+        text-align: left;
+        padding: 0;
+    }
+
+    .newPostsComponent .container .row .col img {
+        width: 100%;
+    }
+
+    .newPostsComponent .container .row .colRight  .container .row .col img {
+        width: 95%;
+    }
+
+    .newPostsComponent .container .row .colRight  .container .row {
+        gap: 0;
+        margin-bottom: 12px;
+    }
+
+    .newPostsComponent .container .row .col .gridTemplateCol2 {
+        display: grid;
+        grid-template-columns: auto 10%;
+        gap: 8px;
+    }
+
+    .newPostsComponent .container .row .col .gridTemplateCol2 .nameNewPosts {
+        text-transform: capitalize;
+    }
+
+    .newPostsComponent .container .row .col .gridTemplateCol2 .iconNewPosts {
+        line-height: 57px;
+    }
+
+    .newPostsComponent .container .row .col .nameNewPosts,
+    .newPostsComponent .container .row .colRight  .container .row .col .nameNewPosts {
+        margin-top: 4px;
+        text-transform: capitalize;
+        font-size: 20px;
+        display: block;
+        height: 40px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .newPostsComponent .container .row .col .descNewPosts {
+        /* font-size: 24px;
+        font-weight: 500; */
+        color: #667085;
+        font-size: 16px;
+    }
+
+    .newPostsComponent .container .row .col .timeNewPosts {
+        margin-bottom: 8px;
+        padding-bottom: 0;
+        color: #6941C6;
+        font-weight: 600;
+        /* margin-top: 12px; */
+        font-size: 14px;
+    }
+}
