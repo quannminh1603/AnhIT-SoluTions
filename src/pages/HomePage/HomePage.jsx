@@ -8,12 +8,21 @@ import NewsComponent from '../../components/HomeComponent/NewsComponent/NewsComp
 import ReviewCourseComponent from '../../components/HomeComponent/ReviewCourseComponent/ReviewCourseComponent';
 import NewPostsComponent from '../../components/HomeComponent/NewPostsComponent/NewPostsComponent';
 import FooterComponent from '../../components/FooterComponent/FooterComponent';
+import banner1 from '../../assets/images/banner.jpg'
+import banner2 from '../../assets/images/banner.jpg'
+import banner3 from '../../assets/images/logoAnhIT.jpg'
 
 const HomePage = () => {
+    const images = [
+        banner1,
+        banner2,
+        banner3,
+    ]
+
     return (
         <div>
             <HeaderComponent />
-            <BannerComponent />
+            <BannerComponent images={images}/>
             <HomeBenefitsList />
             <HomeCategoryComponent />
             <FeaturedCourseComponent />

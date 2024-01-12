@@ -139,7 +139,7 @@ const HomeBenefitsList = () => {
                                 <FontAwesomeIcon icon={faFolderOpen} className='iconBenefitsList' />
                             </div>
                             <div class="gridCol2">
-                                <span className='contentBenefitsList'>Phát triển phần mềm theo dịch vụ</span>
+                                <span className='contentBenefitsList'>Phát triển phần mềm dịch vụ</span>
                             </div>
                         </div>
                         <div>

@@ -1,5 +1,8 @@
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     .bannerComponent {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 101px;
     }
 
     .bannerComponent .banner {

@@ -1,7 +1,9 @@
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     .newPostsComponent {
         margin-top: 80px;
+        margin-left: 140px;
+        margin-right: 140px;
     }
 
     .newPostsComponent .title {
@@ -17,6 +19,7 @@
 
     .newPostsComponent .container .row {
         gap: 20px;
+        border-radius: 20px;
     }
 
     .newPostsComponent .container .borderRow {

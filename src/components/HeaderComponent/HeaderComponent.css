@@ -1,10 +1,10 @@
 
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     /* Styles */
     .active, .active .iconDownMenu {
-        background-color: #24d198;
+        background-color: #1fc501;
         color: #fff !important;
         text-decoration: none;
     }
@@ -12,15 +12,19 @@
     .headerComponent {
         width: 100%;
         height: 101px;
-
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background-color: #fff;
     }
 
     .headerComponent .container {
         /* margin-left: 60px;
         margin-right: 60px; */
         max-width: 100% !important;
-        padding-left: 60px;
+        /* padding-left: 60px; */
         height: 100%;
+        padding: 0 90px;
     }
 
     .headerComponent .container .row {
@@ -43,7 +47,7 @@
     
     .headerComponent .container .divImgLogoAnhIT img {
         width: 224px;
-        height: 100%;
+        height: 90%;
     }
 
     .headerMenu {

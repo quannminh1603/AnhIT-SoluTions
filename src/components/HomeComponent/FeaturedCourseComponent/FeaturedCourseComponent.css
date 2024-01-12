@@ -1,8 +1,9 @@
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     .featuredCourseComponent {
         margin-top: 80px;
-
+        margin-left: 140px;
+        margin-right: 140px;
     }
 
     .featuredCourseComponent .title {

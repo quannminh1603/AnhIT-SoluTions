@@ -1,11 +1,11 @@
 
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     .homeBenefitsList {
         margin-top: 80px;
-        margin-left: 140px;
-        margin-right: 120px;
+        margin-left: 100px;
+        margin-right: 90px;
     }
 
     .homeBenefitsList .titleHomeBenefitsList {

@@ -1,7 +1,14 @@
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width : 1025px) {
     .reviewCourseComponent {
         margin-top: 80px;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+
+    .reviewCourseComponent .container .row {
+        margin-left: -20px;
+        margin-right: -20px;
     }
 
     .reviewCourseComponent .container .row .col {
