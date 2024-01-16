@@ -2,16 +2,22 @@
 @media only screen and (min-width : 1025px) {
     .homeCategoryComponent {
         margin-top: 80px;
-        margin-left: 140px;
-        margin-right: 140px;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
     .homeCategoryComponent .container {
-        margin: 0;
+        /* margin: 0; */
+        padding: 0;
     }
 
     .homeCategoryComponent h1 {
         margin-bottom: 28px;
+    }
+
+    .homeCategoryComponent .itemHomeCategory .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .homeCategoryComponent .itemHomeCategory .row .col-sm img {

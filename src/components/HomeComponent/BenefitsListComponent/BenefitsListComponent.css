@@ -4,8 +4,8 @@
 @media only screen and (min-width : 1025px) {
     .homeBenefitsList {
         margin-top: 80px;
-        margin-left: 140px;
-        margin-right: 120px;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
     .homeBenefitsList .titleHomeBenefitsList {
@@ -13,11 +13,13 @@
     }
 
     .homeBenefitsList .container  {
-        
+        padding: 0;
     }
 
     .homeBenefitsList .container .row {
-        margin-top: 20px;
+        margin-top: 26px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .homeBenefitsList .container .row .itemBenefitsList .iconBenefitsList {
@@ -28,10 +30,11 @@
         /* padding: 16px 0; */
         border: 1px solid #ccc;
         background-color: #F5F5F5B2;
-        margin-right: 20px;
+        margin-right: 1%;
+        margin-left: 1%;
         text-align: left;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 1%;
+        padding-right: 1%;
         height: 80px;
         display: flex;
         align-items: center;

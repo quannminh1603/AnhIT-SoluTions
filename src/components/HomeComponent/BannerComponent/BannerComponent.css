@@ -1,8 +1,12 @@
 @media only screen and (min-width : 1025px) {
     .bannerComponent {
-        margin-left: 140px;
-        margin-right: 140px;
+        margin-left: 4%;
+        margin-right: 4%;
         margin-top: 101px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 85.11% !important; */
     }
 
     .bannerComponent .banner {
@@ -22,7 +26,7 @@
 
     .bannerComponent .banner .slickSlider img {
         height: 100%;
-        width: 100%;
+        width: 100% !important;
     }
 
     .bannerComponent .slickSlider .slick-prev,

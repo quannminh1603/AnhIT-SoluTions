@@ -16,7 +16,8 @@ const BannerComponent = () => {
 
     return (
         <div className='bannerComponent'>
-            <div className="banner">
+           <div className="widthBanner" style={{width: '85.11%'}}>
+           <div className="banner">
                 <Slider className='slickSlider' {...settings}>
                     <img src={banner} alt="" />
                     <img src={banner} alt="" />
@@ -27,6 +28,7 @@ const BannerComponent = () => {
                     <button type="button" className="btnBanner">Xem chi tiết</button>
                 </div>
             </div>
+           </div>
         </div>
     );
 };

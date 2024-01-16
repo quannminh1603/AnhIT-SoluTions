@@ -2,8 +2,8 @@
 @media only screen and (min-width : 1025px) {
     .featuredCourseComponent {
         margin-top: 80px;
-        margin-left: 140px;
-        margin-right: 140px;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
     .featuredCourseComponent .title {
@@ -26,6 +26,8 @@
 
     .featuredCourseComponent .container .row {
         gap: 20px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .featuredCourseComponent .container .row .col-sm {

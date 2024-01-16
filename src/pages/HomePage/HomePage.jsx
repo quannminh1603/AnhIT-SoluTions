@@ -23,7 +23,7 @@ const HomePage = () => {
         <div>
             <HeaderComponent />
             <BannerComponent images={images}/>
-            <HomeBenefitsList />
+            <HomeBenefitsList style={{marginLeft: '4%', marginRight: '4%'}} />
             <HomeCategoryComponent />
             <FeaturedCourseComponent />
             <NewsComponent />
