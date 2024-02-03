@@ -27,22 +27,22 @@ const HeaderComponent = () => {
                                 <NavLink to='/course' activeClassName='active'>Khóa Học <FontAwesomeIcon className='iconDownMenu' icon={faChevronDown} /></NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Dịch Vụ <FontAwesomeIcon className='iconDownMenu' icon={faChevronDown} /></NavLink>
+                                <NavLink to='/' activeClassName='active'>Dịch Vụ <FontAwesomeIcon className='iconDownMenu' icon={faChevronDown} /></NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Blog</NavLink>
+                                <NavLink to='/' activeClassName='active'>Blog</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Tin Tức</NavLink>
+                                <NavLink to='/' activeClassName='active'>Tin Tức</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Về Chúng Tôi</NavLink>
+                                <NavLink to='/' activeClassName='active'>Về Chúng Tôi</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Đăng Nhập</NavLink>
+                                <NavLink to='/' activeClassName='active'>Đăng Nhập</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/course' activeClassName='active'>Đăng Ký</NavLink>
+                                <NavLink to='/' activeClassName='active'>Đăng Ký</NavLink>
                             </li>
                         </ul>
                     </div>
